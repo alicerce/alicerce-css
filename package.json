@@ -1,16 +1,30 @@
 {
   "name": "alicerce-css",
   "version": "1.0.0",
-	"description": "Alicerse CSS framework",
-	"repository": {
+  "description": "Alicerse CSS framework",
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/alicerce/alicerce-css.git"
-	},
-	"engines": {
+  },
+  "engines": {
     "node": ">=8"
   },
   "main": "src/index.js",
   "author": "Luiz tanure <letanure@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "git-cz": "^3.0.1",
+    "yorkie": "^2.0.0"
+	},
+	"commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+	},
+	"gitHooks": {
+    "commit-msg": "commitlint -E GIT_PARAMS"
+  }
 }
