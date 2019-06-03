@@ -1,0 +1,16 @@
+{
+  "name": "alicerce-css",
+  "version": "1.0.0",
+	"description": "Alicerse CSS framework",
+	"repository": {
+    "type": "git",
+    "url": "git+https://github.com/alicerce/alicerce-css.git"
+	},
+	"engines": {
+    "node": ">=8"
+  },
+  "main": "src/index.js",
+  "author": "Luiz tanure <letanure@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
