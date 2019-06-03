@@ -15,6 +15,8 @@
   "private": false,
   "scripts": {
     "commit": "npx git-cz",
+    "build:stylus": "stylus ./src --out ./dist --compress",
+    "watch:stylus": "stylus ./src --out ./dist --watch --sourcemap",
     "deploy:site": "echo deploy",
     "semantic-release": "semantic-release",
     "test": "echo test"
@@ -30,6 +32,7 @@
     "@semantic-release/release-notes-generator": "^7.1.4",
     "git-cz": "^3.0.1",
     "semantic-release": "^15.13.12",
+    "stylus": "^0.54.5",
     "yorkie": "^2.0.0"
   },
   "commitlint": {
