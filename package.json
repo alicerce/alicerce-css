@@ -15,6 +15,7 @@
 	"private": false,
 	"scripts": {
     "commit": "npx git-cz",
+    "deploy:site": "echo deploy",
     "semantic-release": "semantic-release",
     "test": "echo test"
   },
