@@ -14,14 +14,16 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "build:pug": "pug ./src/*.pug --out ./docs",
+    "build:pug:watch": "pug ./src/*.pug --out ./docs --watch",
+    "build:stylus": "stylus ./src/*.styl --out ./docs --compress",
+    "build:stylus:watch": "stylus ./src/*.styl --out ./docs --watch --sourcemap",
+    "lint:stylus": "stylint ./src/*.styl --config .stylintrc",
+    "lint:stylus:watch": "stylint ./src/*.styl --config .stylintrc --watch",
     "commit": "npx git-cz",
-    "build:stylus": "stylus ./src --out ./dist --compress",
-    "watch:stylus": "stylus ./src --out ./dist --watch --sourcemap",
-    "deploy:site": "echo deploy",
-    "lint:stylus": "stylint ./src --config .stylintrc",
-    "lint:stylus:watch": "stylint ./src --config .stylintrc --watch",
+    "test": "echo test",
     "semantic-release": "semantic-release",
-    "test": "echo test"
+    "deploy:site": "echo deploy"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
@@ -33,6 +35,8 @@
     "@semantic-release/npm": "^5.1.7",
     "@semantic-release/release-notes-generator": "^7.1.4",
     "git-cz": "^3.0.1",
+    "pug": "^2.0.3",
+    "pug-cli": "^1.0.0-alpha6",
     "semantic-release": "^15.13.12",
     "stylint": "^1.5.9",
     "stylus": "^0.54.5",
