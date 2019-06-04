@@ -16,6 +16,8 @@
   "scripts": {
     "build:pug": "pug ./src/*.pug --out ./docs",
     "build:pug:watch": "pug ./src/*.pug --out ./docs --watch",
+    "lint:pug": "pug-lint ./src/*.pug --config .puglintrc",
+    "lint:pug:watch": "watch 'yarn lint:pug' ./src",
     "build:stylus": "stylus ./src/*.styl --out ./docs --compress",
     "build:stylus:watch": "stylus ./src/*.styl --out ./docs --watch --sourcemap",
     "lint:stylus": "stylint ./src/*.styl --config .stylintrc",
@@ -37,9 +39,11 @@
     "git-cz": "^3.0.1",
     "pug": "^2.0.3",
     "pug-cli": "^1.0.0-alpha6",
+    "pug-lint": "^2.5.0",
     "semantic-release": "^15.13.12",
     "stylint": "^1.5.9",
     "stylus": "^0.54.5",
+    "watch": "^1.0.2",
     "yorkie": "^2.0.0"
   },
   "commitlint": {
