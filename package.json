@@ -26,7 +26,7 @@
     "server": "live-server --open=./docs --watch=\"./docs\"",
     "commit": "npx git-cz",
     "test": "echo test",
-    "semantic-release": "semantic-release",
+    "semantic-release": "semantic-release --allow-same-version",
     "deploy:site": "echo deploy"
   },
   "devDependencies": {
