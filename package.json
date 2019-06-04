@@ -18,6 +18,8 @@
     "build:stylus": "stylus ./src --out ./dist --compress",
     "watch:stylus": "stylus ./src --out ./dist --watch --sourcemap",
     "deploy:site": "echo deploy",
+    "lint:stylus": "stylint ./src --config .stylintrc",
+    "lint:stylus:watch": "stylint ./src --config .stylintrc --watch",
     "semantic-release": "semantic-release",
     "test": "echo test"
   },
@@ -32,6 +34,7 @@
     "@semantic-release/release-notes-generator": "^7.1.4",
     "git-cz": "^3.0.1",
     "semantic-release": "^15.13.12",
+    "stylint": "^1.5.9",
     "stylus": "^0.54.5",
     "yorkie": "^2.0.0"
   },
