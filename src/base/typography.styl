@@ -1,0 +1,96 @@
+/*
+
+# Typography
+
+The default font is _Noto Sans_
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700')
+
+body
+  font-family var(--font-family--regular)
+  font-size var(--font-size)
+  line-height calc(var(--vertical-rhythm) * 2)
+
+// Font size
+[class*='font_size']
+  --font-size var(--font-size--medium)
+  --line-height calc(var(--vertical-rhythm) * 2)
+  font-size var(--font-size)
+  line-height var(--line-height)
+
+// Font weight
+[class*='font_weight']
+  --font-weight calc(var(--vertical-rhythm) * 2)
+  font-weight var(--font-weight)
+
+// Generate font size for all sizes
+.font
+  // Generate font size for all sizes
+  &_size
+    &--xxx-large
+      --font-size var(--font-size--xxx-large)
+      --line-height calc(var(--vertical-rhythm) * 4)
+    &--xx-large
+      --font-size var(--font-size--xx-large)
+      --line-height calc(var(--vertical-rhythm) * 4)
+    &--x-large
+      --font-size var(--font-size--x-large)
+      --line-height calc(var(--vertical-rhythm) * 4)
+    &--large
+      --font-size var(--font-size--large)
+      --line-height calc(var(--vertical-rhythm) * 4)
+    &--medium
+      --font-size var(--font-size--medium)
+      --line-height calc(var(--vertical-rhythm) * 4)
+    &--small
+      --font-size var(--font-size--small)
+      --line-height calc(var(--vertical-rhythm) * 2)
+    &--x-small
+      --font-size var(--font-size--x-small)
+      --line-height calc(var(--vertical-rhythm) * 2)
+    &--xx-small
+      --font-size var(--font-size--xx-small)
+      --line-height calc(var(--vertical-rhythm) * 2)
+    &--xxx-small
+      --font-size var(--font-size--xxx-small)
+      --line-height calc(var(--vertical-rhythm) * 2)
+
+  // Generate font weights for all possibilities
+  &_weight
+    // Modifiers
+    &--bolder
+      font-weight bolder
+    &--lighter
+      font-weight lighter
+    // Absolute
+    &--thin
+      --font-weight var(--font-weight--thin)
+    &--light-extra
+      --font-weight var(--font-weight--light-extra)
+    &--light
+      --font-weight var(--font-weight--light)
+    &--medium
+      --font-weight var(--font-weight--medium)
+    &--regular
+      --font-weight var(--font-weight--regular)
+    &--bold-semi
+      --font-weight var(--font-weight--bold-semi)
+    &--bold
+      --font-weight var(--font-weight--bold)
+    &--bold-extra
+      --font-weight var(--font-weight--bold-extra)
+    &--black
+      --font-weight var(--font-weight--black)
+
+  // Font Styles
+  &_style
+    &--normal
+      font-style normal
+    &--italic
+      font-style italic
+
+
+p
+  margin-bottom calc(var(--font-size) / 2)

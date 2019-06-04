@@ -1,0 +1,48 @@
+$verticalRhythm = 8px
+
+// Root custom properties
+
+:root
+  // Geral
+  --vertical-rhythm $verticalRhythm
+
+  // Font
+  // Font family
+  --font-family--regular 'Noto Sans', sans-serif
+  --font-family--semibold 'Noto Sans', sans-serif
+
+  // Font Sizes
+  --step .125
+  --font-size calc(var(--vertical-rhythm) * 2)
+  --font-size--xxx-large calc(var(--font-size) * var(--step) * 12)
+  --font-size--xx-large calc(var(--font-size) * var(--step) * 11)
+  --font-size--x-large calc(var(--font-size) * var(--step) * 10)
+  --font-size--large calc(var(--font-size) * var(--step) * 9)
+  --font-size--medium calc(var(--font-size) * var(--step) * 8)
+  --font-size--small calc(var(--font-size) * var(--step) * 7)
+  --font-size--x-small calc(var(--font-size) * var(--step) * 6)
+  --font-size--xx-small calc(var(--font-size) * var(--step) * 5)
+  --font-size--xxx-small calc(var(--font-size) * var(--step) * 4)
+
+  // Font weight
+  --font-weight 400
+  --font-weight--black 900
+  --font-weight--bold-extra 800
+  --font-weight--bold 700
+  --font-weight--bold-semi 600
+  --font-weight--medium 500
+  --font-weight--regular 400
+  --font-weight--light 300
+  --font-weight--light-extra 200
+  --font-weight--thin 100
+
+  // Line heights
+  --line-height--xxx-large calc(var(--vertical-rhythm) * 8)
+  --line-height--xx-large calc(var(--vertical-rhythm) * 7)
+  --line-height--x-large calc(var(--vertical-rhythm) * 6)
+  --line-height--large calc(var(--vertical-rhythm) * 5)
+  --line-height--medium calc(var(--vertical-rhythm) * 4)
+  --line-height--small calc(var(--vertical-rhythm) * 3)
+  --line-height--x-small calc(var(--vertical-rhythm) * 2)
+  --line-height--xx-small calc(var(--vertical-rhythm) * 2)
+  --line-height--xxx-small calc(var(--vertical-rhythm) * 2)
