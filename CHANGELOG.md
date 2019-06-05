@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/alicerce/alicerce-css/compare/v1.2.2...v1.2.3) (2019-06-05)
+
+
+### Bug Fixes
+
+* sintax consig release ([683151d](https://github.com/alicerce/alicerce-css/commit/683151d))
+
 ## [1.2.2](https://github.com/alicerce/alicerce-css/compare/v1.2.1...v1.2.2) (2019-06-05)
 
 
