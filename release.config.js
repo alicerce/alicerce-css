@@ -1,4 +1,5 @@
-module.exports ={
+module.exports = {
+  'pkgRoot': 'dist/',
   'verifyConditions': [
     '@semantic-release/changelog',
     '@semantic-release/npm',
