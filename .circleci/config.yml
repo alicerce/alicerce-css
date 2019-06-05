@@ -8,7 +8,6 @@ version: 2
 job_defaults: &job_defaults
   docker:
     - image: 'circleci/node:10.15.3'
-  working_directory: ~/project/repo
 
 cache_key: &cache_key v1-dependencies-deps-cache-{{ .Branch }}-{{ checksum "yarn-lock.json" }}
 dist_key: &dist_key v1-dependencies-dist-{{ .Revision }}
