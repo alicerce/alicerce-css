@@ -2,11 +2,11 @@ module.exports ={
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
-    ["@semantic-release/github", {
-      "assets": [
+    ['@semantic-release/github', {
+      'assets': [
         {
-          "path": "dist/alicerce.css",
-          "label": "Alicerce CSS ${nextRelease.version}"
+          'path': 'dist/alicerce.css',
+          'label': `Alicerce CSS ${nextRelease.version}`
         }
       ]
     }],
