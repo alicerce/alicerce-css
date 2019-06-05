@@ -14,7 +14,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build:all": "mkdir ./docs & yarn build:pug & yarn build:stylus",
+    "build:all": "mkdir ./docs && yarn build:pug && yarn build:stylus",
     "build:pug": "pug ./src/*.pug --out ./docs",
     "build:pug:watch": "pug ./src/*.pug --out ./docs --watch",
     "lint:pug": "pug-lint ./src/*.pug --config .puglintrc",
