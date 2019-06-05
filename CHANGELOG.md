@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/alicerce/alicerce-css/compare/v1.2.0...v1.2.1) (2019-06-05)
+
+
+### Bug Fixes
+
+* update order properties ([f339e4a](https://github.com/alicerce/alicerce-css/commit/f339e4a))
+
 # [1.2.0](https://github.com/alicerce/alicerce-css/compare/v1.1.0...v1.2.0) (2019-06-05)
 
 
