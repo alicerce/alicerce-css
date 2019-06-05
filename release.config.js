@@ -4,7 +4,7 @@ module.exports ={
     '@semantic-release/release-notes-generator',
     ["@semantic-release/github", {
       "assets": [
-        {"path": "dist/alicerce.css.css", "label": "CSS distribution"}
+        {"path": "dist/alicerce.css", "label": "CSS distribution"}
       ]
     }],
     '@semantic-release/changelog',
