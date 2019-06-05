@@ -1,3 +1,12 @@
+## [1.2.4](https://github.com/alicerce/alicerce-css/compare/v1.2.3...v1.2.4) (2019-06-05)
+
+
+### Bug Fixes
+
+* fix syntax ([1970c9a](https://github.com/alicerce/alicerce-css/commit/1970c9a))
+* remove version name config dist ([1720254](https://github.com/alicerce/alicerce-css/commit/1720254))
+* test ci ([292189b](https://github.com/alicerce/alicerce-css/commit/292189b))
+
 ## [1.2.3](https://github.com/alicerce/alicerce-css/compare/v1.2.2...v1.2.3) (2019-06-05)
 
 
