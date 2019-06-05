@@ -6,7 +6,7 @@ module.exports ={
       'assets': [
         {
           'path': 'dist/alicerce.css',
-          'label': `Alicerce CSS ${nextRelease.version}`
+          'label': 'Alicerce CSS dist'
         }
       ]
     }],
