@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/alicerce/alicerce-css/compare/v1.2.1...v1.2.2) (2019-06-05)
+
+
+### Bug Fixes
+
+* add version to bundled comment ([25d3839](https://github.com/alicerce/alicerce-css/commit/25d3839))
+
 ## [1.2.1](https://github.com/alicerce/alicerce-css/compare/v1.2.0...v1.2.1) (2019-06-05)
 
 
