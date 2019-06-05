@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/alicerce/alicerce-css/compare/v1.2.4...v1.2.5) (2019-06-05)
+
+
+### Bug Fixes
+
+* test gh pages sematinc release ([a4b83f0](https://github.com/alicerce/alicerce-css/commit/a4b83f0))
+
 ## [1.2.4](https://github.com/alicerce/alicerce-css/compare/v1.2.3...v1.2.4) (2019-06-05)
 
 
