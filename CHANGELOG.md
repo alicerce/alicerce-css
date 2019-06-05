@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/alicerce/alicerce-css/compare/v1.2.5...v1.2.6) (2019-06-05)
+
+
+### Bug Fixes
+
+* test build docs ci ([c7cb0be](https://github.com/alicerce/alicerce-css/commit/c7cb0be))
+
 ## [1.2.5](https://github.com/alicerce/alicerce-css/compare/v1.2.4...v1.2.5) (2019-06-05)
 
 
