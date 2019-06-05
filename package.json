@@ -19,6 +19,7 @@
     "lint:pug": "pug-lint ./src/*.pug --config .puglintrc",
     "lint:pug:watch": "watch 'yarn lint:pug' ./src",
     "build:stylus": "stylus ./src/*.styl --out ./docs --compress",
+    "build:dist": "mkdir ./dist & stylus ./src/index.styl --out ./dist/alicerce.css --compress",
     "build:stylus:watch": "stylus ./src/*.styl --out ./docs --watch --sourcemap",
     "lint:stylus": "stylint ./src/*.styl --config .stylintrc",
     "lint:stylus:watch": "stylint ./src/*.styl --config .stylintrc --watch",

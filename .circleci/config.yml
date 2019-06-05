@@ -26,6 +26,9 @@ jobs:
           name: Test
           command: yarn test
       - run:
+          name: Build dist
+          command: yarn build:dist
+      - run:
           name: Semantic release
           command: npm run semantic-release --debug || true
       - checkout
