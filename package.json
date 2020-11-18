@@ -47,7 +47,7 @@
     "pug": "^2.0.3",
     "pug-cli": "^1.0.0-alpha6",
     "pug-lint": "^2.5.0",
-    "semantic-release": "^15.13.12",
+    "semantic-release": "^17.2.3",
     "stylint": "^1.5.9",
     "stylus": "^0.54.5",
     "watch": "^1.0.2",
